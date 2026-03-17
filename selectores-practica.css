@@ -3,3 +3,8 @@
 /* Ejercicio 1 */
 p { color: blue; }
 .destacado { background-color: lightyellow; }
+
+/* Ejercicio 2 */
+#foto-perfil {
+  border: 2px dotted red;
+}
