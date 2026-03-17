@@ -8,3 +8,9 @@ p { color: blue; }
 #foto-perfil {
   border: 2px dotted red;
 }
+
+/* Ejercicio 3 */
+a[target="_blank"]::after {
+  content: " 🔗";
+}
+
