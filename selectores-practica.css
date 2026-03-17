@@ -14,3 +14,7 @@ a[target="_blank"]::after {
   content: " 🔗";
 }
 
+/* Ejercicio 4 */
+#experiencia p {
+  font-size: 0.9em;
+}
