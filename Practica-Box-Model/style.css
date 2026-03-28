@@ -1,0 +1,62 @@
+/*Jesus Eduardo Cardenas Ortega*/
+
+*{
+    /*box-sizing: border-box;*/
+    box-sizing: content-box;
+    margin: 20px;
+    padding: 0px;
+
+    body{
+        font-family: Arial, sans-serif;
+        background-color: #febf20;
+        padding: 20px;
+    }
+
+   .caja{
+    width: 200px;
+    /* Altura automática según el contenido */
+    background-color: lightblue;
+    border: 8px solid rgba(102, 255, 0, 0.452);
+    margin: 10px;
+    padding: 10px;
+    }
+
+    /* Identificadores para personalizar cada caja */
+    caja1 {
+    border: 8px solid blue;
+
+    }
+
+    #caja2 {
+    border: #203afe solid 8px;
+    margin: 30px;
+    padding: 5px;
+    }
+
+    #caja3 {
+    border: #6e20fe solid 8px;
+    margin: 10px;
+    padding: 50px;
+    }
+
+    .caja-especial {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: yellow;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+    .caja-propia {
+    width: 250px;   
+    background-color: lightgreen;
+    border: 3px dotted purple;
+        margin: 200px;
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-top: 0%;
+        padding-bottom: 0%;
+
+}
+
+}

@@ -1,0 +1,44 @@
+/* Jesus Eduardo Cardenas Ortega */
+
+/* Ejercicio 1 */
+p { color: blue; }
+.destacado { background-color: lightyellow; }
+
+/* Ejercicio 2 */
+#foto-perfil {
+  border: 2px dotted red;
+}
+
+/* Ejercicio 3 */
+a[target="_blank"]::after {
+  content: " 🔗";
+}
+
+/* Ejercicio 4 */
+#experiencia p {
+  font-size: 0.9em;
+}
+
+/* Ejercicio 5 */
+#experiencia > ul > li {
+  list-style-type: square;
+}
+
+/* Ejercicio 6 */
+h2 + p {
+  margin-top: 0;
+}
+
+/* Ejercicio 7 */
+h2 ~ p {
+  color: lightgray;
+}
+
+/* Ejercicio 8 */
+.intro p {
+  border-left: 5px solid orange;
+}
+
+#contacto a[target="_blank"] {
+  color: green;
+}
