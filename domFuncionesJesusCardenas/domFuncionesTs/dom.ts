@@ -54,8 +54,6 @@ function createNav(
   return element
 }
 
-// ===== PRUEBA (IMPORTANTE) =====
-
 const header = createHeader(document, "mainHeader")
 const nav = createNav(document, "menu principal")
 const div = createDiv(document, "container", "main")

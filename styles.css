@@ -1,77 +1,83 @@
-/*Jesus Eduardo Cardenas Ortega*/
 
-/* Reset general */
-* { margin: 0; padding: 0; box-sizing: border-box; }
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
-/* Ejercicio 1 */
-p { color: black; }
-.texto { color: blue; }
-#contenedor p { color: green; }
-#parrafo { color: red; }
-#contenedor .texto { color: purple; }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
 
-/* Ejercicio 2 */
-li { color: gray; }
-.item { color: olive; }
-#primero { color: navy; }
-ul li.item { color: teal; }
-li#primero.item { color: fuchsia; }
+.contenedor {
+    width: 95%;
+    margin: 15px auto;
+    border: 3px solid green;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
 
-/* Ejercicio 3 */
-p { color: silver; }
-.resaltado { color: gold; }
-#main p { color: lime; }
-#main_caja p { color: aqua; }
-.caja .resaltado { color: coral; }
-#main .resaltado { color: indigo; }
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    border: 2px solid black;
+}
 
-/* Ejercicio 4 */
-article p { color: brown; }
-.contenido { color: chocolate; }
-#ultimo { color: crimson; }
-article .contenido { color: darkcyan; }
-p#ultimo.contenido { color: darkgoldenrod; }
+th, td {
+    border: 1px solid black;
+    vertical-align: top;
+    padding: 8px;
+    font-size: 14px;
+}
 
-/* Ejercicio 5 */
-a { color: darkblue; }
-.menu a { color: darkgreen; }
-nav ul li a { color: darkmagenta; }
-#contacto { color: darkorange; }
-.menu li a.enlace { color: darkred; }
+.header-left, .header-right {
+    background: linear-gradient(to right, #ffff00, #e6e600);
+    text-align: left;
+    border-bottom: 2px solid black;
+}
 
-/* Ejercicio 6 */
-div { color: darksalmon; }
-.hijo { color: darkseagreen; }
-#padre .hijo { color: darkslateblue; }
-#padre > .hijo { color: darkslategrey; }
-#padre .hijo .nieto { color: darkturquoise; }
+.header-left {
+    width: 30%;
+}
 
-/* Ejercicio 7 */
-input { border: 1px solid black; }
-.campo { border: 2px solid blue; }
-#registro input { border: 3px solid green; }
-input[type="submit"] { border: 4px solid red; }
-#btn { border: 5px solid purple; }
+.tabla td.left {
+    background-color: #f28c00;
+    width: 30%;
+    font-weight: bold;
+}
 
-/* Ejercicio 8 */
-.card { background: lightgray; }
-#card1 .card-title { color: maroon; }
-#card2 .card-text { color: mediumblue; }
-.card .card-title { color: mediumvioletred; }
-.card .card-text { color: midnightblue; }
+.right {
+    background-color: #ffffff;
+    height: 80px;
+    transition: background 0.3s;
+}
 
-/* Ejercicio 9 */
-p { color: navy; }
-.seccion p { color: olive; }
-#s1 p { color: orange; }
-#s1 .especial { color: orchid; }
-main .seccion p { color: palegreen; }
-main .seccion .especial { color: paleturquoise; }
+.right:hover {
+    background-color: #f5f5f5;
+}
 
-/* Ejercicio 10 */
-p { color: peru; }
-.destacado { color: pink; }
-#contenedor p { color: plum; }
-#contenedor .destacado { color: powderblue; }
-.contenedor .interno p { color: rebeccapurple; }
-#contenedor .interno .destacado { color: rosybrown; }
+.objetivos div,
+.preguntas div {
+    border-bottom: 1px solid #ccc;
+    padding: 3px 0;
+    font-size: 13px;
+}
+
+tr:nth-child(3) td,
+tr:nth-child(4) td {
+    height: 90px;
+}
+
+tr:nth-child(5) td {
+    height: 150px;
+}
+
+tr:nth-child(6) td {
+    height: 150px;
+}
+
+.tabla tr:last-child td.left {
+    background-color: #ffc219;
+    font-weight: bold;
+}

@@ -1,0 +1,4 @@
+p { color: black; }
+.destacado { color: purple; }
+#principal { color: blue; }
+#principal.destacado { color: cyan; }
