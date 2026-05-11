@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f0f0f0;
+    padding: 30px;
+}
+
+#app{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.fake-button{
+    cursor: pointer;
+    padding: 12px 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background: lightgray;
+    transition: 0.2s;
+    user-select: none;
+    display: inline-block;
+}
+
+.fake-button:hover{
+    background: gray;
+    color: white;
+}
+
+.fake-button:active{
+    transform: scale(0.95);
+    background: black;
+    color: white;
+}
+
+img.fake-button{
+    width: 120px;
+}
