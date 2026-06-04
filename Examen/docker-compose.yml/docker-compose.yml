@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  backend-usuarios:
+    build: ./backend-usuarios
+    ports:
+      - "3001:3000"
+  backend-productos:
+    build: ./backend-productos
+    ports:
+      - "3002:3000"
+  backend-pedidos:
+    build: ./backend-pedidos
+    ports:
+      - "3003:3000"
