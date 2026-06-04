@@ -40,7 +40,6 @@ function renderMovie(doc: Document, movie: OMDBMovieResponse): void {
   `;
 }
 
-// Ejemplo: Guardians of the Galaxy Vol. 2
 getMovieByImdbId("tt3896198")
   .then(movie => renderMovie(document, movie))
   .catch(error => {
